@@ -20,4 +20,9 @@ window.addEventListener('load', () => {
 		task_input_el.classList.add('text');
 		task_input_el.type = 'text';
 		task_input_el.value = task;
-		task_input_el.setAttribute('readonly', 'readonly');
+        task_input_el.setAttribute('readonly', 'readonly');
+        
+        task_content_el.appendChild(task_input_el);
+
+		const task_actions_el = document.createElement('div');
+		task_actions_el.classList.add('actions');
