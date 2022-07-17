@@ -29,4 +29,8 @@ window.addEventListener('load', () => {
         
         const task_edit_el = document.createElement('button');
 		task_edit_el.classList.add('edit');
-		task_edit_el.innerText = 'Edit';
+        task_edit_el.innerText = 'Edit';
+        
+        const task_delete_el = document.createElement('button');
+		task_delete_el.classList.add('delete');
+		task_delete_el.innerText = 'Delete';
